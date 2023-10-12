@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Cherry
   - Trap
+  - Enemy
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -14,8 +16,8 @@ TagManager:
   - Water
   - UI
   - Ground
-  - 
-  - 
+  - Enemy
+  - Player
   - 
   - 
   - 

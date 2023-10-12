@@ -9,10 +9,13 @@ public class PlayerMovement : MonoBehaviour
     private SpriteRenderer sprite;
     private Animator anim;
     private float dirX = 0f;
-    private float moveSpeed = 7f;
-    private float jumpForce = 14f;
+    [SerializeField] private float moveSpeed = 7f;
+    [SerializeField] private float jumpForce = 14f;
+    
 
     [SerializeField] private LayerMask jumpableGround;
+    [SerializeField] private LayerMask notPlayerMask;
+
 
     private enum MovementState { idle, running, jumping, falling }
 
@@ -30,18 +33,19 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+
         dirX = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
-
+        
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
             jumpSoundEffect.Play();
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }
+        PlayerRaycast();
+        
 
         UpdateAnimationState();
-
-
     }
 
     private void UpdateAnimationState()
@@ -79,4 +83,18 @@ public class PlayerMovement : MonoBehaviour
     {
         return Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0f, Vector2.down, .1f, jumpableGround);
     }
+
+    
+
+    private void PlayerRaycast()
+    {
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 1.1f, notPlayerMask);
+        if (hit != null && hit.collider != null && hit.distance < 1.1f && hit.collider.tag == "Enemy")
+        {
+            GetComponent<Rigidbody2D>().AddForce(Vector2.up * 1000);
+            hit.collider.GetComponent<EnemyPatrol>().dieEnemy();//Destroy(hit.collider.gameObject);
+        }
+    }
+
+
 }
