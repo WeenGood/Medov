@@ -31,7 +31,7 @@ public class Player_Life : MonoBehaviour
         rb.bodyType = RigidbodyType2D.Static;
         anim.SetTrigger("death");
         gameObject.GetComponent<BoxCollider2D>().enabled = false;
-        
+        gameObject.GetComponent<PlayerMovement>().enabled = false;
     }
 
     private void RestartLevel()

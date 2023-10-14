@@ -5,8 +5,8 @@ using TMPro;
 
 public class ItemCollector : MonoBehaviour
 {
-    private int cherries = 0;
-    [SerializeField] private TMP_Text cherriesText;
+    public int cherries = 0;
+    [SerializeField] public TMP_Text cherriesText;
     [SerializeField] private AudioSource collectionSoundEffect;
 
     private void OnTriggerEnter2D(Collider2D collision)

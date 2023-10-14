@@ -36,8 +36,9 @@ public class EnemyPatrol : MonoBehaviour
     void Update()
     {
         updateEnemyPosition();
-        hitPlayer();
         checkDie();
+        if(!shouldDie) hitPlayer();
+        
     }
 
     void updateEnemyPosition()
@@ -68,9 +69,9 @@ public class EnemyPatrol : MonoBehaviour
 
     public void dieEnemy()
     {
+        GetComponent<BoxCollider2D>().enabled = false;
         audioSourceEnemyDie.Play();
         anim.SetTrigger("death");
-        GetComponent<BoxCollider2D>().enabled = false;
         shouldDie = true;
     }
 
@@ -93,8 +94,6 @@ public class EnemyPatrol : MonoBehaviour
     private void hitPlayer()
     {
         RaycastHit2D hit = Physics2D.Raycast(transform.position, new Vector2(XMoveDirection, 0), 1f, playerMask);
-        //gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(XMoveDirection, 0) * speed;
-        //Debug.Log("Enemy hit " + hit.collider.gameObject.name);
         if (hit!= null && hit.collider != null && hit.distance < 1.1f && hit.collider.gameObject.name == "Player")
         {
             hit.collider.gameObject.GetComponent<Player_Life>().playerDie();

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -21,6 +22,10 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] private AudioSource jumpSoundEffect;
 
+
+    private int cherries;
+    private TMP_Text cherriesText;
+
     // Start is called before the first frame update
     private void Start()
     {
@@ -28,6 +33,8 @@ public class PlayerMovement : MonoBehaviour
         coll = GetComponent<BoxCollider2D>();
         sprite = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
+        cherries = GetComponent<ItemCollector>().cherries;
+        cherriesText = GetComponent<ItemCollector>().cherriesText;
     }
 
     // Update is called once per frame
@@ -81,6 +88,7 @@ public class PlayerMovement : MonoBehaviour
 
     private bool IsGrounded()
     {
+
         return Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0f, Vector2.down, .1f, jumpableGround);
     }
 
@@ -88,6 +96,13 @@ public class PlayerMovement : MonoBehaviour
 
     private void PlayerRaycast()
     {
+        
+        RaycastHit2D hitUp = Physics2D.Raycast(transform.position, Vector2.up, 1.1f, notPlayerMask);
+        if (hitUp != null && hitUp.collider != null && hitUp.distance < 0.9f && hitUp.collider.tag == "LootBox")
+        {
+
+        }
+
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 1.1f, notPlayerMask);
         if (hit != null && hit.collider != null && hit.distance < 1.1f && hit.collider.tag == "Enemy")
         {
