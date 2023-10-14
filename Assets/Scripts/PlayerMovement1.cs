@@ -51,7 +51,7 @@ public class PlayerMovement1 : MonoBehaviour
         {
             transform.eulerAngles = Vector3.zero;
         }
-        else if (velocity.x < 0.5f)
+        else if (velocity.x < 0f)
         {
             transform.eulerAngles = new Vector3(0f, 180f, 0f);
         }
@@ -90,7 +90,15 @@ public class PlayerMovement1 : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.layer != LayerMask.NameToLayer("PowerUp"))
+        if(collision.gameObject.layer == LayerMask.NameToLayer("Enemy"))
+        {
+            if(transform.DotTest(collision.transform, Vector2.down))
+            {
+                velocity.y = jumpForce / 2f;
+                jumping = true;
+            }
+        }
+        else if (collision.gameObject.layer != LayerMask.NameToLayer("PowerUp"))
         {
             if(transform.DotTest(collision.transform, Vector2.up))
             {
