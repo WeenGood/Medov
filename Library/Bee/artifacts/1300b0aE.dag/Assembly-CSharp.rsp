@@ -394,6 +394,7 @@
 "Assets/Scripts/AnimatedSprite.cs"
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/DeathAnimation.cs"
+"Assets/Scripts/DeathBarrier.cs"
 "Assets/Scripts/EndMenu.cs"
 "Assets/Scripts/Enemy.cs"
 "Assets/Scripts/EnemyPatrol.cs"

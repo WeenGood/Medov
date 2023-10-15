@@ -9,7 +9,7 @@ public class HitBlock : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (!animating && collision.gameObject.CompareTag("Player"))
+        if (!animating && maxHits != 0 && collision.gameObject.CompareTag("Player"))
         {
             if(collision.transform.DotTest(transform, Vector2.up))
             {
@@ -24,6 +24,8 @@ public class HitBlock : MonoBehaviour
     private void Hit()
     {
         SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRenderer.enabled = true;
+
         maxHits--;
 
         if(maxHits ==0)
