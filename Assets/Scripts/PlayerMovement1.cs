@@ -44,7 +44,7 @@ public class PlayerMovement1 : MonoBehaviour
 
         if(rigidbody.Raycast(Vector2.right * velocity.x))
         {
-            velocity.x = 0;
+            velocity.x = 0f;
         }
 
         if (velocity.x > 0f)

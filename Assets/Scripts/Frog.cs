@@ -4,6 +4,9 @@ public class Frog : MonoBehaviour
 {
     public Sprite flatSprite;
 
+    [SerializeField] public AudioSource dieEnemy;
+    [SerializeField] public AudioSource diePlayer;
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
@@ -11,10 +14,12 @@ public class Frog : MonoBehaviour
             Player player = collision.gameObject.GetComponent<Player>();
             if(collision.transform.DotTest(transform, Vector2.down))
             {
+                dieEnemy.Play();
                 Flatten();
             }
             else
             {
+                diePlayer.Play();
                 player.Hit();
             }
         }

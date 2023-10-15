@@ -2,10 +2,12 @@ using UnityEngine;
 using System.Collections;
 public class HitBlock : MonoBehaviour
 {
+    public GameObject item;
     public int maxHits = 1;
     public Sprite emptyBlock;
-
     private bool animating;
+
+    [SerializeField] private AudioSource getPoint;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -13,10 +15,9 @@ public class HitBlock : MonoBehaviour
         {
             if(collision.transform.DotTest(transform, Vector2.up))
             {
-                if(collision.transform.DotTest(transform, Vector2.up))
-                {
-                    Hit();
-                }
+                Hit();
+                getPoint.Play();
+                collision.gameObject.GetComponent<ItemCollector>().updateScore();
             }
         }
     }
@@ -28,14 +29,20 @@ public class HitBlock : MonoBehaviour
 
         maxHits--;
 
-        if(maxHits ==0)
+        if (maxHits == 0)
         {
             spriteRenderer.sprite = emptyBlock;
+        }
+
+        if (item != null)
+        {
+            Instantiate(item,transform.position, Quaternion.identity);
         }
 
         StartCoroutine(Animate());
 
     }
+    
 
     private IEnumerator Animate()
     {

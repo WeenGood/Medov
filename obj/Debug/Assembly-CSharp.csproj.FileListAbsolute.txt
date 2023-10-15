@@ -1,0 +1,2 @@
+O:\unity\medov\Medov\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+O:\unity\medov\Medov\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
