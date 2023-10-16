@@ -64,17 +64,14 @@ public class GameManager : MonoBehaviour
     public void ResetLevel()
     {
         lives--;
-
+        
         if (lives > 0)
         {
-            if (lives > 0)
-            {
-                LoadLevel(world, stage);
-            }
-            else
-            {
-                GameOver();
-            }
+            LoadLevel(world, stage);
+        }
+        else
+        {
+            GameOver();
         }
 
     }

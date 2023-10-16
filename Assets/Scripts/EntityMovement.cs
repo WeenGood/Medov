@@ -39,7 +39,7 @@ public class EntityMovemnt : MonoBehaviour
         velocity.x = direction.x * speed;
         velocity.y += Physics2D.gravity.y * Time.fixedDeltaTime;
         rigidbody.MovePosition(rigidbody.position + velocity * Time.fixedDeltaTime);
-        if (rigidbody.Raycast(direction))
+        if (rigidbody.Raycast(direction, 0.375f, 0.5f))
         {
             direction = -direction;
         }

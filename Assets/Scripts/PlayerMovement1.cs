@@ -42,7 +42,7 @@ public class PlayerMovement1 : MonoBehaviour
         inputAxis = Input.GetAxis("Horizontal");
         velocity.x = Mathf.MoveTowards(velocity.x, inputAxis * moveSpeed, moveSpeed * Time.deltaTime);
 
-        if(rigidbody.Raycast(Vector2.right * velocity.x))
+        if(rigidbody.Raycast(Vector2.right * velocity.x, 0.375f, 0.5f))
         {
             velocity.x = 0f;
         }
@@ -100,7 +100,7 @@ public class PlayerMovement1 : MonoBehaviour
         }
         else if (collision.gameObject.layer != LayerMask.NameToLayer("PowerUp"))
         {
-            if(transform.DotTest(collision.transform, Vector2.up))
+            if (rigidbody.Raycast(Vector2.up, 0.25f, 0.9f)) //if (transform.DotTest(collision.transform, Vector2.up))
             {
                 velocity.y = 0f;
             }
