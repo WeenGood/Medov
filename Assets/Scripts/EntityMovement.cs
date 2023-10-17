@@ -56,4 +56,11 @@ public class EntityMovemnt : MonoBehaviour
             transform.eulerAngles = new Vector3(0f, 180f, 0f);
         }
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Trap")
+        {
+            direction = -direction;
+        }
+    }
 }

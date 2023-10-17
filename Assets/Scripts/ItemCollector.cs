@@ -22,6 +22,6 @@ public class ItemCollector : MonoBehaviour
     public void updateScore()
     {
         cherries++;
-        cherriesText.text = "Cherries: " + cherries;
+        cherriesText.text = ": " + cherries;
     }
 }

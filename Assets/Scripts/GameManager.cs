@@ -1,10 +1,11 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
-
+    
     public int world { get; private set; }
     public int stage { get; private set; }
     public int lives { get; private set; }
@@ -40,7 +41,6 @@ public class GameManager : MonoBehaviour
     {
         lives = 3;
         coins = 0;
-
         LoadLevel(1, 1);
     }
 
@@ -64,7 +64,7 @@ public class GameManager : MonoBehaviour
     public void ResetLevel()
     {
         lives--;
-        
+
         if (lives > 0)
         {
             LoadLevel(world, stage);
