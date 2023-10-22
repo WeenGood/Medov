@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerMovement1 : MonoBehaviour
 {
@@ -19,10 +20,25 @@ public class PlayerMovement1 : MonoBehaviour
     public bool running => Mathf.Abs(velocity.x) > 0.25f || Mathf.Abs(inputAxis) > 0.25f;
     public bool sliding => (inputAxis > 0f && velocity.x < 0f) || (inputAxis < 0f && velocity.x > 0f);
 
+    private Controls controls;
+
     private void Awake()
     {
         rigidbody = GetComponent<Rigidbody2D>();
         camera = Camera.main;
+
+        controls = new Controls();
+        controls.main.Jump.performed += context => Jump();
+    }
+
+    private void OnEnable()
+    {
+        controls.Enable();
+    }
+
+    private void OnDisable()
+    {
+        controls.Disable();
     }
 
     private void Update()
@@ -37,9 +53,25 @@ public class PlayerMovement1 : MonoBehaviour
         ApplyGravity();
     }
 
+    private void Jump()
+    {
+        grounded = rigidbody.Raycast(Vector2.down);
+
+        if (grounded)
+        {
+            velocity.y = Mathf.Max(velocity.y, 0f);
+            jumping = velocity.y > 0f;
+            velocity.y = jumpForce;
+            jumping = true;
+        }
+        ApplyGravity();
+    }
+
     private void HorizontalMovement()
     {
-        inputAxis = Input.GetAxis("Horizontal");
+        //inputAxis = Input.GetAxis("Horizontal");
+        inputAxis = controls.main.Move.ReadValue<float>();
+
         velocity.x = Mathf.MoveTowards(velocity.x, inputAxis * moveSpeed, moveSpeed * Time.deltaTime);
 
         if(rigidbody.Raycast(Vector2.right * velocity.x, 0.375f, 0.5f))
@@ -56,6 +88,7 @@ public class PlayerMovement1 : MonoBehaviour
             transform.eulerAngles = new Vector3(0f, 180f, 0f);
         }
     }
+    
     private void GroundedMovement()
     {
         velocity.y = Mathf.Max(velocity.y, 0f);

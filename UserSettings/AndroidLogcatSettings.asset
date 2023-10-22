@@ -1,9 +1,9 @@
 {
     "m_SelectedDeviceId": "ENU7N15A28003855",
     "m_SelectedPackage": {
-        "deviceId": "",
-        "name": "",
-        "processId": 0,
+        "deviceId": "ENU7N15A28003855",
+        "name": "com.doubleU.Medov",
+        "processId": 15899,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -12,6 +12,12 @@
             "deviceId": "ENU7N15A28003855",
             "name": "com.doubleU.Medov",
             "processId": 10458,
+            "exited": false
+        },
+        {
+            "deviceId": "ENU7N15A28003855",
+            "name": "com.doubleU.Medov",
+            "processId": 15899,
             "exited": false
         }
     ],
