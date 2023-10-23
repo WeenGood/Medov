@@ -21,6 +21,7 @@ public class PlayerMovement1 : MonoBehaviour
     public bool sliding => (inputAxis > 0f && velocity.x < 0f) || (inputAxis < 0f && velocity.x > 0f);
 
     private Controls controls;
+    private InputAction.CallbackContext context;
 
     private void Awake()
     {
@@ -28,7 +29,10 @@ public class PlayerMovement1 : MonoBehaviour
         camera = Camera.main;
 
         controls = new Controls();
-        controls.main.Jump.performed += context => Jump();
+        controls.main.Jump.performed += a => Jump();
+        
+        context = new InputAction.CallbackContext();
+        
     }
 
     private void OnEnable()
@@ -56,7 +60,7 @@ public class PlayerMovement1 : MonoBehaviour
     private void Jump()
     {
         grounded = rigidbody.Raycast(Vector2.down);
-
+        
         if (grounded)
         {
             velocity.y = Mathf.Max(velocity.y, 0f);
@@ -91,10 +95,11 @@ public class PlayerMovement1 : MonoBehaviour
     
     private void GroundedMovement()
     {
-        velocity.y = Mathf.Max(velocity.y, 0f);
+        //velocity.y = Mathf.Max(velocity.y, 0f);
         jumping = velocity.y > 0f;
 
-        if(Input.GetButtonDown("Jump"))
+        //if(Input.GetButtonDown("Jump"))
+        if (context.action != null && context.action.name == "Jump")
         {
             velocity.y = jumpForce;
             jumping = true;
@@ -103,7 +108,7 @@ public class PlayerMovement1 : MonoBehaviour
 
     private void ApplyGravity()
     {
-        bool falling = velocity.y < 0f || !Input.GetButton("Jump");
+        bool falling = velocity.y < 0f || !(context.action != null && context.action.name == "Jump"); // Input.GetButton("Jump");
         float multiplier = falling ? 2f : 1f;
         velocity.y += gravity * multiplier * Time.deltaTime;
         velocity.y = Mathf.Max(velocity.y, gravity / 2f);

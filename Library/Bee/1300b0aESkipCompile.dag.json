@@ -24,10 +24,10 @@
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "BuildPlayerDataGenerator TypeDb-All",
-      "Action": "\"O:/unity/2022.3.10f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"O:/unity/2022.3.10f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.2D.Animation.Runtime.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.2D.Common.Runtime.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.2D.IK.Runtime.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.2D.PixelPerfect.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.2D.Tilemap.Extras.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.AdaptivePerformance.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.AdaptivePerformance.Google.Android.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.AdaptivePerformance.Samsung.Android.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.Burst.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.Collections.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.InternalAPIEngineBridge.001.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.Mathematics.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.Notifications.Android.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.Notifications.iOS.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.Profiling.Core.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\PackageCache\\com.unity.burst@1.8.8\\Unity.Burst.CodeGen\\Unity.Burst.Cecil.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\PackageCache\\com.unity.burst@1.8.8\\Unity.Burst.CodeGen\\Unity.Burst.Cecil.Mdb.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\PackageCache\\com.unity.burst@1.8.8\\Unity.Burst.CodeGen\\Unity.Burst.Cecil.Pdb.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\PackageCache\\com.unity.burst@1.8.8\\Unity.Burst.CodeGen\\Unity.Burst.Cecil.Rocks.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\PackageCache\\com.unity.burst@1.8.8\\Unity.Burst.Unsafe.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\PackageCache\\com.unity.collections@1.2.4\\Unity.Collections.LowLevel.ILSupport\\Unity.Collections.LowLevel.ILSupport.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\PackageCache\\com.unity.visualscripting@1.9.0\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\" -s=\"O:\\unity\\2022.3.10f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"O:\\unity\\2022.3.10f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"O:\\unity\\2022.3.10f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"O:\\unity\\2022.3.10f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"O:\\unity\\2022.3.10f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"O:\\unity\\medov\\Medov\\Library\\PackageCache\\com.unity.burst@1.8.8\" -s=\"O:\\unity\\medov\\Medov\\Library\\PackageCache\\com.unity.burst@1.8.8\\Unity.Burst.CodeGen\" -s=\"O:\\unity\\medov\\Medov\\Library\\PackageCache\\com.unity.collections@1.2.4\\Unity.Collections.LowLevel.ILSupport\" -s=\"O:\\unity\\medov\\Medov\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"O:\\unity\\medov\\Medov\\Library\\PackageCache\\com.unity.visualscripting@1.9.0\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"O:/unity/2022.3.11f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"O:/unity/2022.3.11f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.2D.Animation.Runtime.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.2D.Common.Runtime.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.2D.IK.Runtime.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.2D.PixelPerfect.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.2D.Tilemap.Extras.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.AdaptivePerformance.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.AdaptivePerformance.Google.Android.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.AdaptivePerformance.Samsung.Android.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.Burst.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.Collections.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.InputSystem.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.InputSystem.ForUI.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.InputSystem.TestFramework.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.InternalAPIEngineBridge.001.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.Mathematics.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.Notifications.Android.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.Notifications.iOS.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.Profiling.Core.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\PackageCache\\com.unity.burst@1.8.9\\Unity.Burst.CodeGen\\Unity.Burst.Cecil.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\PackageCache\\com.unity.burst@1.8.9\\Unity.Burst.CodeGen\\Unity.Burst.Cecil.Mdb.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\PackageCache\\com.unity.burst@1.8.9\\Unity.Burst.CodeGen\\Unity.Burst.Cecil.Pdb.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\PackageCache\\com.unity.burst@1.8.9\\Unity.Burst.CodeGen\\Unity.Burst.Cecil.Rocks.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\PackageCache\\com.unity.burst@1.8.9\\Unity.Burst.Unsafe.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\PackageCache\\com.unity.collections@1.2.4\\Unity.Collections.LowLevel.ILSupport\\Unity.Collections.LowLevel.ILSupport.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"O:\\unity\\medov\\Medov\\Library\\PackageCache\\com.unity.visualscripting@1.9.1\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"O:\\unity\\medov\\Medov\\Library\\ScriptAssemblies\" -s=\"O:\\unity\\2022.3.11f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"O:\\unity\\2022.3.11f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"O:\\unity\\2022.3.11f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"O:\\unity\\2022.3.11f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"O:\\unity\\2022.3.11f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"O:\\unity\\medov\\Medov\\Library\\PackageCache\\com.unity.burst@1.8.9\" -s=\"O:\\unity\\medov\\Medov\\Library\\PackageCache\\com.unity.burst@1.8.9\\Unity.Burst.CodeGen\" -s=\"O:\\unity\\medov\\Medov\\Library\\PackageCache\\com.unity.collections@1.2.4\\Unity.Collections.LowLevel.ILSupport\" -s=\"O:\\unity\\medov\\Medov\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"O:\\unity\\medov\\Medov\\Library\\PackageCache\\com.unity.visualscripting@1.9.1\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
-        "O:/unity/2022.3.10f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
-        "O:/unity/2022.3.10f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
+        "O:/unity/2022.3.11f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
+        "O:/unity/2022.3.11f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
         "Library/ScriptAssemblies/Assembly-CSharp.dll",
         "Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll",
         "Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll",
@@ -40,6 +40,9 @@
         "Library/ScriptAssemblies/Unity.AdaptivePerformance.Samsung.Android.dll",
         "Library/ScriptAssemblies/Unity.Burst.dll",
         "Library/ScriptAssemblies/Unity.Collections.dll",
+        "Library/ScriptAssemblies/Unity.InputSystem.dll",
+        "Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll",
+        "Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll",
         "Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll",
         "Library/ScriptAssemblies/Unity.Mathematics.dll",
         "Library/ScriptAssemblies/Unity.Notifications.Android.dll",
@@ -52,14 +55,14 @@
         "Library/ScriptAssemblies/Unity.VisualScripting.State.dll",
         "Library/ScriptAssemblies/UnityEngine.TestRunner.dll",
         "Library/ScriptAssemblies/UnityEngine.UI.dll",
-        "Library/PackageCache/com.unity.burst@1.8.8/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll",
-        "Library/PackageCache/com.unity.burst@1.8.8/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll",
-        "Library/PackageCache/com.unity.burst@1.8.8/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll",
-        "Library/PackageCache/com.unity.burst@1.8.8/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll",
-        "Library/PackageCache/com.unity.burst@1.8.8/Unity.Burst.Unsafe.dll",
+        "Library/PackageCache/com.unity.burst@1.8.9/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll",
+        "Library/PackageCache/com.unity.burst@1.8.9/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll",
+        "Library/PackageCache/com.unity.burst@1.8.9/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll",
+        "Library/PackageCache/com.unity.burst@1.8.9/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll",
+        "Library/PackageCache/com.unity.burst@1.8.9/Unity.Burst.Unsafe.dll",
         "Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll",
         "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
-        "Library/PackageCache/com.unity.visualscripting@1.9.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+        "Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
       ],
       "Outputs": [
         "Library/BuildPlayerData/Editor/TypeDb-All.json"
@@ -86,106 +89,106 @@
       "File": "Library/Bee/1300b0aESkipCompile-inputdata.json"
     },
     {
-      "File": "O:/unity/2022.3.10f1/Editor/Data/Tools/BuildPipeline/Bee.BuildTools.dll"
+      "File": "O:/unity/2022.3.11f1/Editor/Data/Tools/BuildPipeline/Bee.BuildTools.dll"
     },
     {
-      "File": "O:/unity/2022.3.10f1/Editor/Data/Tools/BuildPipeline/Bee.Core.dll"
+      "File": "O:/unity/2022.3.11f1/Editor/Data/Tools/BuildPipeline/Bee.Core.dll"
     },
     {
-      "File": "O:/unity/2022.3.10f1/Editor/Data/Tools/BuildPipeline/Bee.CSharpSupport.dll"
+      "File": "O:/unity/2022.3.11f1/Editor/Data/Tools/BuildPipeline/Bee.CSharpSupport.dll"
     },
     {
-      "File": "O:/unity/2022.3.10f1/Editor/Data/Tools/BuildPipeline/Bee.DotNet.dll"
+      "File": "O:/unity/2022.3.11f1/Editor/Data/Tools/BuildPipeline/Bee.DotNet.dll"
     },
     {
-      "File": "O:/unity/2022.3.10f1/Editor/Data/Tools/BuildPipeline/Bee.NativeProgramSupport.dll"
+      "File": "O:/unity/2022.3.11f1/Editor/Data/Tools/BuildPipeline/Bee.NativeProgramSupport.dll"
     },
     {
-      "File": "O:/unity/2022.3.10f1/Editor/Data/Tools/BuildPipeline/Bee.Stevedore.Program.exe"
+      "File": "O:/unity/2022.3.11f1/Editor/Data/Tools/BuildPipeline/Bee.Stevedore.Program.exe"
     },
     {
-      "File": "O:/unity/2022.3.10f1/Editor/Data/Tools/BuildPipeline/Bee.TinyProfiler2.dll"
+      "File": "O:/unity/2022.3.11f1/Editor/Data/Tools/BuildPipeline/Bee.TinyProfiler2.dll"
     },
     {
-      "File": "O:/unity/2022.3.10f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.GNU.dll"
+      "File": "O:/unity/2022.3.11f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.GNU.dll"
     },
     {
-      "File": "O:/unity/2022.3.10f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll"
+      "File": "O:/unity/2022.3.11f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll"
     },
     {
-      "File": "O:/unity/2022.3.10f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll"
+      "File": "O:/unity/2022.3.11f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll"
     },
     {
-      "File": "O:/unity/2022.3.10f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll"
+      "File": "O:/unity/2022.3.11f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll"
     },
     {
-      "File": "O:/unity/2022.3.10f1/Editor/Data/Tools/BuildPipeline/Bee.Tools.dll"
+      "File": "O:/unity/2022.3.11f1/Editor/Data/Tools/BuildPipeline/Bee.Tools.dll"
     },
     {
-      "File": "O:/unity/2022.3.10f1/Editor/Data/Tools/BuildPipeline/Bee.TundraBackend.dll"
+      "File": "O:/unity/2022.3.11f1/Editor/Data/Tools/BuildPipeline/Bee.TundraBackend.dll"
     },
     {
-      "File": "O:/unity/2022.3.10f1/Editor/Data/Tools/BuildPipeline/Bee.VisualStudioSolution.dll"
+      "File": "O:/unity/2022.3.11f1/Editor/Data/Tools/BuildPipeline/Bee.VisualStudioSolution.dll"
     },
     {
-      "File": "O:/unity/2022.3.10f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll"
+      "File": "O:/unity/2022.3.11f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll"
     },
     {
-      "File": "O:/unity/2022.3.10f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.dll"
+      "File": "O:/unity/2022.3.11f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.dll"
     },
     {
-      "File": "O:/unity/2022.3.10f1/Editor/Data/Tools/BuildPipeline/BeeLocalCacheTool.exe"
+      "File": "O:/unity/2022.3.11f1/Editor/Data/Tools/BuildPipeline/BeeLocalCacheTool.exe"
     },
     {
-      "File": "O:/unity/2022.3.10f1/Editor/Data/Tools/BuildPipeline/Newtonsoft.Json.dll"
+      "File": "O:/unity/2022.3.11f1/Editor/Data/Tools/BuildPipeline/Newtonsoft.Json.dll"
     },
     {
-      "File": "O:/unity/2022.3.10f1/Editor/Data/Tools/BuildPipeline/NiceIO.dll"
+      "File": "O:/unity/2022.3.11f1/Editor/Data/Tools/BuildPipeline/NiceIO.dll"
     },
     {
-      "File": "O:/unity/2022.3.10f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll"
+      "File": "O:/unity/2022.3.11f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll"
     },
     {
-      "File": "O:/unity/2022.3.10f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll"
+      "File": "O:/unity/2022.3.11f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll"
     },
     {
-      "File": "O:/unity/2022.3.10f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll"
+      "File": "O:/unity/2022.3.11f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll"
     },
     {
-      "File": "O:/unity/2022.3.10f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe"
+      "File": "O:/unity/2022.3.11f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe"
     },
     {
-      "File": "O:/unity/2022.3.10f1/Editor/Data/Tools/BuildPipeline/SharpYaml.dll"
+      "File": "O:/unity/2022.3.11f1/Editor/Data/Tools/BuildPipeline/SharpYaml.dll"
     },
     {
-      "File": "O:/unity/2022.3.10f1/Editor/Data/Tools/BuildPipeline/Unity.Api.Attributes.dll"
+      "File": "O:/unity/2022.3.11f1/Editor/Data/Tools/BuildPipeline/Unity.Api.Attributes.dll"
     },
     {
-      "File": "O:/unity/2022.3.10f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.dll"
+      "File": "O:/unity/2022.3.11f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.dll"
     },
     {
-      "File": "O:/unity/2022.3.10f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Mdb.dll"
+      "File": "O:/unity/2022.3.11f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Mdb.dll"
     },
     {
-      "File": "O:/unity/2022.3.10f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Pdb.dll"
+      "File": "O:/unity/2022.3.11f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Pdb.dll"
     },
     {
-      "File": "O:/unity/2022.3.10f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Rocks.dll"
+      "File": "O:/unity/2022.3.11f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Rocks.dll"
     },
     {
-      "File": "O:/unity/2022.3.10f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Api.dll"
+      "File": "O:/unity/2022.3.11f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Api.dll"
     },
     {
-      "File": "O:/unity/2022.3.10f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll"
+      "File": "O:/unity/2022.3.11f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll"
     },
     {
-      "File": "O:/unity/2022.3.10f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll"
+      "File": "O:/unity/2022.3.11f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll"
     },
     {
-      "File": "O:/unity/2022.3.10f1/Editor/Data/Tools/BuildPipeline/Unity.Linker.Api.dll"
+      "File": "O:/unity/2022.3.11f1/Editor/Data/Tools/BuildPipeline/Unity.Linker.Api.dll"
     },
     {
-      "File": "O:/unity/2022.3.10f1/Editor/Data/Tools/BuildPipeline/Unity.Options.dll"
+      "File": "O:/unity/2022.3.11f1/Editor/Data/Tools/BuildPipeline/Unity.Options.dll"
     }
   ],
   "StatSignatures": [
@@ -199,19 +202,19 @@
       "File": "Library/Bee/1300b0aESkipCompile-inputdata.json"
     },
     {
-      "File": "Library/PackageCache/com.unity.burst@1.8.8/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
+      "File": "Library/PackageCache/com.unity.burst@1.8.9/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
     },
     {
-      "File": "Library/PackageCache/com.unity.burst@1.8.8/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
+      "File": "Library/PackageCache/com.unity.burst@1.8.9/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
     },
     {
-      "File": "Library/PackageCache/com.unity.burst@1.8.8/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
+      "File": "Library/PackageCache/com.unity.burst@1.8.9/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
     },
     {
-      "File": "Library/PackageCache/com.unity.burst@1.8.8/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
+      "File": "Library/PackageCache/com.unity.burst@1.8.9/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
     },
     {
-      "File": "Library/PackageCache/com.unity.burst@1.8.8/Unity.Burst.Unsafe.dll"
+      "File": "Library/PackageCache/com.unity.burst@1.8.9/Unity.Burst.Unsafe.dll"
     },
     {
       "File": "Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll"
@@ -220,7 +223,7 @@
       "File": "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
     },
     {
-      "File": "Library/PackageCache/com.unity.visualscripting@1.9.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+      "File": "Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
     },
     {
       "File": "Library/ScriptAssemblies/Assembly-CSharp.dll"
@@ -257,6 +260,15 @@
     },
     {
       "File": "Library/ScriptAssemblies/Unity.Collections.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.InputSystem.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll"
     },
     {
       "File": "Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll"
@@ -297,7 +309,7 @@
   ],
   "GlobSignatures": [
     {
-      "Path": "O:/unity/2022.3.10f1/Editor/Data/Tools/BuildPipeline"
+      "Path": "O:/unity/2022.3.11f1/Editor/Data/Tools/BuildPipeline"
     }
   ],
   "ContentDigestExtensions": [

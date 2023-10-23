@@ -1,0 +1,92 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m629C02D58B961FC3AE18C748626D9425DB2CDF9D (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mAACDF28E06A59146CD89882C624DB3401164B396 (void);
+extern void GoogleAndroidProviderLoader_get_Initialized_mC1804AF9E061D654F97AA47201D40D7A9905DF6A (void);
+extern void GoogleAndroidProviderLoader_get_Running_m149106697E43ACD694C5F1E366BE4C73FA9AC616 (void);
+extern void GoogleAndroidProviderLoader_GetDefaultSubsystem_mCEE2D4521E876F6FC72E1C25F58EF486996CF12D (void);
+extern void GoogleAndroidProviderLoader_GetSettings_mCC5A4DED1280EA83C22C045A214132F6659BEA9F (void);
+extern void GoogleAndroidProviderLoader_Initialize_m86D01E49FB0C1F31F33576697E929B6EB2FE89B4 (void);
+extern void GoogleAndroidProviderLoader_Start_m75E89F3706D8831D14885425B90277682407AA87 (void);
+extern void GoogleAndroidProviderLoader_Stop_m28F2BA0689AA6AAFC4F591439C1AE9DB0B9DC376 (void);
+extern void GoogleAndroidProviderLoader_Deinitialize_m6F282A2E9343E71DA212F8CCC3818C52FE728D38 (void);
+extern void GoogleAndroidProviderLoader__ctor_m79CF5D2E39CAF71877D581B3196D95C477F9ABD4 (void);
+extern void GoogleAndroidProviderLoader__cctor_m54593B94DDFFFB4160D01ACCAF97554B70FF702B (void);
+extern void GoogleAndroidProviderSettings_get_googleProviderLogging_m43C3CC6A1929D51438ECFC7ACD7442F7050BA396 (void);
+extern void GoogleAndroidProviderSettings_set_googleProviderLogging_m4276DE46E8FB3C35909B572F14E75434DFE00721 (void);
+extern void GoogleAndroidProviderSettings_Awake_m5EF529082BE4AE47399D21624761AFDD4CC1FDED (void);
+extern void GoogleAndroidProviderSettings_GetSettings_mC0C0E6107DA108DFEECE8FD9FDE35EAC75DFA0F2 (void);
+extern void GoogleAndroidProviderSettings__ctor_m4A4532BBDA4E9242763A3AF3832F3A0DAC203A15 (void);
+static Il2CppMethodPointer s_methodPointers[17] = 
+{
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m629C02D58B961FC3AE18C748626D9425DB2CDF9D,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mAACDF28E06A59146CD89882C624DB3401164B396,
+	GoogleAndroidProviderLoader_get_Initialized_mC1804AF9E061D654F97AA47201D40D7A9905DF6A,
+	GoogleAndroidProviderLoader_get_Running_m149106697E43ACD694C5F1E366BE4C73FA9AC616,
+	GoogleAndroidProviderLoader_GetDefaultSubsystem_mCEE2D4521E876F6FC72E1C25F58EF486996CF12D,
+	GoogleAndroidProviderLoader_GetSettings_mCC5A4DED1280EA83C22C045A214132F6659BEA9F,
+	GoogleAndroidProviderLoader_Initialize_m86D01E49FB0C1F31F33576697E929B6EB2FE89B4,
+	GoogleAndroidProviderLoader_Start_m75E89F3706D8831D14885425B90277682407AA87,
+	GoogleAndroidProviderLoader_Stop_m28F2BA0689AA6AAFC4F591439C1AE9DB0B9DC376,
+	GoogleAndroidProviderLoader_Deinitialize_m6F282A2E9343E71DA212F8CCC3818C52FE728D38,
+	GoogleAndroidProviderLoader__ctor_m79CF5D2E39CAF71877D581B3196D95C477F9ABD4,
+	GoogleAndroidProviderLoader__cctor_m54593B94DDFFFB4160D01ACCAF97554B70FF702B,
+	GoogleAndroidProviderSettings_get_googleProviderLogging_m43C3CC6A1929D51438ECFC7ACD7442F7050BA396,
+	GoogleAndroidProviderSettings_set_googleProviderLogging_m4276DE46E8FB3C35909B572F14E75434DFE00721,
+	GoogleAndroidProviderSettings_Awake_m5EF529082BE4AE47399D21624761AFDD4CC1FDED,
+	GoogleAndroidProviderSettings_GetSettings_mC0C0E6107DA108DFEECE8FD9FDE35EAC75DFA0F2,
+	GoogleAndroidProviderSettings__ctor_m4A4532BBDA4E9242763A3AF3832F3A0DAC203A15,
+};
+static const int32_t s_InvokerIndices[17] = 
+{
+	7892,
+	5310,
+	5114,
+	5114,
+	5201,
+	5201,
+	5114,
+	5114,
+	5114,
+	5114,
+	5310,
+	7884,
+	5114,
+	4109,
+	5310,
+	7849,
+	5310,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_AdaptivePerformance_Google_Android_CodeGenModule;
+const Il2CppCodeGenModule g_Unity_AdaptivePerformance_Google_Android_CodeGenModule = 
+{
+	"Unity.AdaptivePerformance.Google.Android.dll",
+	17,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
